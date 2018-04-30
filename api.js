@@ -10,5 +10,5 @@ routes.get('/', function(req, res) {
 app.use('/api', routes);
 
 app.listen(3000, function() {
-    console.log('listening on port ' + process.env.PORT);
+    console.log('listening on port 3000');
 });
