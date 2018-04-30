@@ -11,5 +11,12 @@
     "url": "https://git.heroku.com/sample-nodejs-t4h.git"
   },
   "author": "Roman Jaquez",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": "8.11.1"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  }
 }
